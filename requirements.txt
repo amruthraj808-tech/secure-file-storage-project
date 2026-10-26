@@ -1,0 +1,28 @@
+# Hybrid Cryptographic Secure Cloud File Storage System
+# Core Dependencies for AWS S3 Only
+
+# Web API Backend
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Cryptography
+cryptography>=41.0.0
+blowfish>=0.6.1
+
+# AWS S3 Storage (using MinIO client for S3 compatibility)
+minio>=7.1.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# File handling
+werkzeug>=2.3.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Type hints and code quality
+mypy>=1.5.0
+black>=23.7.0
+flake8>=6.0.0
